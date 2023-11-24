@@ -1,4 +1,29 @@
-
+#' Calculate PIC values for molecular marker data
+#'
+#' This function calculates polymorphism information content (PIC) 
+#' values for each marker in the given data set. It handles both 
+#' co-dominant and dominant markers appropriately.
+#'
+#' @param data Data frame with marker genotype data. First column should 
+#'   be the marker names. Subsequent columns are the genotypes for each 
+#'   sample.
+#'   
+#' @return A list with the following components:
+#' \itemize{  
+#'   \item pic: Data frame with marker name, heterozygosity, and PIC value
+#'   \item data: Original input data frame 
+#' }
+#'
+#' @examples
+#' data(PIC_example)
+#' results <- pic_calc(PIC_example)
+#' 
+#' @export
+pic_calc <- function(data){
+  
+  # Function body
+  
+}
 pic_calc=function(data){
   pic_multi=function(temp,n){
     s1=(rowSums(temp[,c(-1,-2)])/sum(rowSums(temp[,c(-1,-2)])))^2
@@ -27,7 +52,7 @@ pic_calc=function(data){
     }
     
   }
-return(list(pic=pic,data=data))
+return(pic)
 }
 
 
