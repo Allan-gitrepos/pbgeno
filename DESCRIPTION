@@ -1,0 +1,11 @@
+Package: pbgeno
+Title: This package is for plant breeding data analysis, provides publication-ready tables and beautiful figures without writing a lot of code in R.
+Version: 0.0.0.9000
+Authors@R: 
+    person("Allan", "Victor", , "medium.com/@victorallan.com", role = c("cre"),
+           comment = c(ORCID = "0000-0001-7230-081X"))
+Description: What the package does (one paragraph).
+License: MIT + file LICENSEE 
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
