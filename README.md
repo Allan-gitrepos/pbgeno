@@ -1,3 +1,4 @@
+Here is a draft README.md file for the pbgeno R package:
 
 # pbgeno
 
@@ -18,8 +19,32 @@ pbgeno contains functions for common plant breeding workflows:
 
 ```r
 library(pbgeno)
-#
 
+# Jaccard distance matrix
+dists <- ggtree_jaccard(Jaccard_example)
+
+# Polymorphism information content
+results <- pic_calc(PIC_example)
+
+# Convert structure foramt to tassel format data
+tassel_data <- str2tassel(Structure_example, metadata)
+
+```
+
+## Example data
+
+pbgeno contains some example genotype and phenotype datasets:  
+
+- `Jaccard_example`: SSR markers data for calculating jaccard distances
+- `PIC_example`: SSR marker data for calculating PIC_values
+- `Structure_example`: SSR marker data example in structure format
+- `metadata`: Meta data for the tassel data. 
+
+## Key functions
+
+* `ggtree_jaccard` - Generate Jaccard distance matrix
+* `pic_calc` - Calculate PIC value for each marker  
+* `str2tassel` - Converts Structure format data to tassel hapmap format
 
 
 ## Getting help
