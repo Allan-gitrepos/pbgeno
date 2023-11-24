@@ -4,7 +4,7 @@ Version: 0.0.0.9000
 Authors@R: 
     person("Allan", "Victor", , "albertoogy@gmail.com.com", role = c("cre"),
            comment = c(ORCID = "0000-0001-7230-081X"))
-Description: What the package does (one paragraph).
+Description: This package is for plant breeding data analysis, provides publication-ready tables and beautiful figures without writing a lot of code in R
 License: MIT License
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
