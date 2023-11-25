@@ -50,3 +50,6 @@ pbgeno contains some example genotype and phenotype datasets:
 ## Getting help
 
 If you encounter any issues or bugs with pbgeno, please file an issue on the GitHub repository. Ideas for package improvements and contributions are also welcome!
+
+
+<meta name="google-site-verification" content="nE-yBDoWCj5TcTXXNcRBPPiJZxpC6pw5dEdeRo6kTCk" />
