@@ -1,4 +1,4 @@
-Here is a draft README.md file for the pbgeno R package:
+
 
 # pbgeno
 
